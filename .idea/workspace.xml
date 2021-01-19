@@ -1,149 +1,367 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="604aae13-a1d4-46fd-a834-a68de8a7cd22" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="dd59dc05-ca30-48d2-a5b4-ab1749aa4f8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/apiConfigs/APIPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/apiConfigs/HeaderConfigs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factory/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/excel/AppData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/executables/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/executables/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/executables/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logs/Application.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logs/Selenium.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/OR.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/v2test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APITesting/APITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APITesting/ParseGSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APITesting/ReadSimpleJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APITesting/ReadorgJSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APITesting/WriteJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APITesting/parseURL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FunctionalTesting/GetRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FunctionalTesting/PostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testNg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_6_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_osgi_2_2_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_apache_log4j_extras_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_sling_org_apache_sling_javax_activation_0_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_4_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_4_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20180813.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eShipper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eShipper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/RolesandSection/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/RolesandSection/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/ConfigDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProvider/ConfigDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/ExcelDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProvider/ExcelDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/ReportDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProvider/ReportDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factory/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factory/DataProviderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/DataProviderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factory/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utility/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/ExcelReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utility/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/RolesandSection/CreateRole$SessionData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/RolesandSection/CreateRole$SessionData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/RolesandSection/CreateRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/RolesandSection/CreateRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/RolesandSection/Login$SessionData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/RolesandSection/Login$SessionData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/RolesandSection/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/RolesandSection/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dataProvider/ConfigDataProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dataProvider/ExcelDataProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dataProvider/ReportDataProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/factory/BrowserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/factory/DataProviderFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/factory/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utility/ExcelReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utility/Helper.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="eShipper" />
-  </component>
-  <component name="ProjectId" id="1TA0IDipiMHYjsTxQ6dvXXJaRGm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Login (2)">
-    <configuration name="CreateRole.createRole" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jF6ptvdAE3KgbKqfdoddO0ovql" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Selenium" />
+      <recent name="TestNG_Practice" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Automation\eShipper" />
+      <recent name="F:\Automation\eShipper\src\main\resources\properties" />
+      <recent name="F:\Automation\eShipper\src\test\java" />
+      <recent name="F:\Automation\eShipper\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.FileUpload.clickaddfiles">
+    <configuration name="F:/Automation/eShipper/Selenium.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="eShipper" />
+      <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Selenium.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true -Denv=v2test" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorywithoutDprovider" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eShipper" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.RolesandSection.*" />
+          <option name="PATTERN" value="TestNG_Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.RolesandSection" />
-      <option name="MAIN_CLASS_NAME" value="com.RolesandSection.CreateRole" />
-      <option name="METHOD_NAME" value="createRole" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="TestNG_Practice" />
+      <option name="MAIN_CLASS_NAME" value="TestNG_Practice.FactorywithoutDprovider" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUpload.clickaddfiles" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eShipper" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Selenium" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.FileUpload" />
+      <option name="METHOD_NAME" value="clickaddfiles" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true -Denv=v2test" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FileUpload.test (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="eShipper" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.RolesandSection.*" />
+          <option name="PATTERN" value="Selenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.RolesandSection" />
-      <option name="MAIN_CLASS_NAME" value="com.RolesandSection.Login" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="eShipper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.RolesandSection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.RolesandSection" />
-      <option name="MAIN_CLASS_NAME" value="com.RolesandSection.Login" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="eShipper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.RolesandSection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.RolesandSection" />
-      <option name="MAIN_CLASS_NAME" value="com.RolesandSection.Login" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login.create_role" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="eShipper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.RolesandSection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.RolesandSection" />
-      <option name="MAIN_CLASS_NAME" value="com.RolesandSection.Login" />
-      <option name="METHOD_NAME" value="create_role" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Selenium" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.FileUpload" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true -Denv=v2test" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileUpload.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eShipper" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Selenium" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.FileUpload" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true -Denv=v2test" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.FactorywithoutDprovider" />
+      <item itemvalue="TestNG.F:/Automation/eShipper/Selenium.xml" />
+      <item itemvalue="TestNG.FileUpload.test" />
+      <item itemvalue="TestNG.FileUpload.test (1)" />
+      <item itemvalue="TestNG.FileUpload.clickaddfiles" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Login (2)" />
-        <item itemvalue="TestNG.Login.create_role" />
-        <item itemvalue="TestNG.Login (1)" />
-        <item itemvalue="TestNG.CreateRole.createRole" />
-        <item itemvalue="TestNG.Login" />
+        <item itemvalue="TestNG.FileUpload.clickaddfiles" />
+        <item itemvalue="TestNG.FileUpload.test (1)" />
+        <item itemvalue="TestNG.FileUpload.test" />
+        <item itemvalue="TestNG.F:/Automation/eShipper/Selenium.xml" />
+        <item itemvalue="TestNG.FactorywithoutDprovider" />
       </list>
     </recent_temporary>
   </component>
@@ -152,16 +370,94 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="604aae13-a1d4-46fd-a834-a68de8a7cd22" name="Default Changelist" comment="" />
-      <created>1572887510628</created>
+      <changelist id="dd59dc05-ca30-48d2-a5b4-ab1749aa4f8a" name="Default Changelist" comment="" />
+      <created>1603387678568</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572887510628</updated>
-      <workItem from="1572887515851" duration="2313000" />
+      <updated>1603387678568</updated>
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Inspections" timestamp="1603997561300">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1603997561300" />
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604946127656">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604946127656" />
+    <state x="401" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603387910201">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="401" y="289" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1603387910201" />
+    <state x="479" y="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1603387912105">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1603387912105" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1604986209740">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604986209740" />
+    <state width="1306" height="234" key="GridCell.Tab.0.bottom" timestamp="1605032882127">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="234" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605032882127" />
+    <state width="1306" height="234" key="GridCell.Tab.0.center" timestamp="1605032882127">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="234" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605032882127" />
+    <state width="1306" height="234" key="GridCell.Tab.0.left" timestamp="1605032882127">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="234" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605032882127" />
+    <state width="1306" height="234" key="GridCell.Tab.0.right" timestamp="1605032882127">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="234" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605032882127" />
+    <state width="1306" height="220" key="GridCell.Tab.1.bottom" timestamp="1604945523438">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="220" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604945523438" />
+    <state width="1306" height="220" key="GridCell.Tab.1.center" timestamp="1604945523437">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="220" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604945523437" />
+    <state width="1306" height="220" key="GridCell.Tab.1.left" timestamp="1604945523437">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="220" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604945523437" />
+    <state width="1306" height="220" key="GridCell.Tab.1.right" timestamp="1604945523438">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="220" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604945523438" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1604945900137">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604945900137" />
+    <state x="404" y="109" width="570" height="524" key="StructurePopup" timestamp="1603388837961">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="404" y="109" width="570" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1603388837961" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1604986190916">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1604986190916" />
+    <state x="413" y="119" width="540" height="496" key="extract.method.dialog" timestamp="1603899150838">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" width="540" height="496" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1603899150838" />
+    <state x="352" y="0" width="661" height="728" key="find.popup" timestamp="1603897708762">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="352" y="0" width="661" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1603897708762" />
+    <state x="65" y="59" key="new project wizard" timestamp="1604908887828">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="59" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1604908887828" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
   </component>
 </project>

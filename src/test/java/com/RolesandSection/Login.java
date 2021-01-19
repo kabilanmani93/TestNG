@@ -51,9 +51,6 @@ public class Login {
 	
 	protected SessionData login(String username, String password) {
 		
-		SessionFilter sessionFilter = new SessionFilter();
-		
-        //@formatter:off
         Response getLoginResponse =
             given().
                 filter(sessionFilter).
@@ -63,8 +60,9 @@ public class Login {
                 extract().response();
         //@formatter:on
 
+        String token = getLoginResponse.getCookie("XSRF-TOKEN");
 
-        String token = getLoginResponse.header("X-CSRF-TOKEN");
+        System.out.println("the token from getloginresponse is :" + token);
 
 
         //@formatter:off
@@ -79,25 +77,26 @@ public class Login {
         Response tokenResponse =
 
            given().log().all().
-           		auth().form(username,password,new FormAuthConfig("/authentication", "j_username", "j_password").withLoggingEnabled()).
+           		auth().form(username,password,new FormAuthConfig(".", "j_username", "j_password").withLoggingEnabled()).
            		header("X-XSRF-TOKEN",token).
                 filter(sessionFilter).
             when().
-                post("/authentication").
+                post("/api/authentication").
             then().log().all().
                 extract().response();
 
-        sessionFilter.getSessionId();
-
+		System.out.println("the Jsession id is 2 : " + sessionFilter.getSessionId());
+		String token2 = tokenResponse.getCookie("XSRF-TOKEN");
+		System.out.println("the 2nd token from tokenresponse is :" + token2);
         //@formatter:on
-        return new SessionData(tokenResponse.header("X-CSRF-TOKEN"), sessionFilter.getSessionId());
+        return new SessionData(tokenResponse.getCookie("XSRF-TOKEN"), sessionFilter.getSessionId());
     }
 
 	
 	@Test
 	public void create_role() throws FileNotFoundException
 	{
-		RestAssured.baseURI = "https://dev.eshipper.com/api";
+		RestAssured.baseURI = "https://dev.eshipper.com";
 	    SessionData sessionData = login("admin", "admin");
 	    
 	    final Response response = 
@@ -107,7 +106,7 @@ public class Login {
 	            filter(sessionFilter).
 	            body(new FileReader("JSON Files/Roles_Section/CreateRole.JSON")).
 	        when().    
-	        	post("/authority");
+	        	post("/api/authority");
 	    
 	    response.body().prettyPrint();
 	    

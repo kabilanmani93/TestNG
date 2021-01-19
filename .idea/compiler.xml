@@ -9,8 +9,5 @@
         <module name="eShipper" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="eShipper" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

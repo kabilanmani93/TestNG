@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test_suite">
+    <test name="IT Department">
+        <classes>
+            <class name="TestNG_Practice.it_department"/>
+            <class name="TestNG_Practice.hr_department"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="HR Department">
+        <classes>
+            <class name="TestNG_Practice.hr_department"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Groups">
+        <classes>
+            <class name="TestNG_Practice.Class1"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
